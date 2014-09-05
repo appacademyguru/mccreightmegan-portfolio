@@ -1,10 +1,9 @@
 div{
     padding: 10px;
-    border-radius: 10px;
 }
 
 .container{
-    background-color: rgba(0,0,0,0.1);
+    background-image: url('images/background.jpg');
 }
 
 .row{
@@ -12,8 +11,49 @@ div{
     border-bottom-color: black;
 }
 
+.menu-side{
+    border-left-color: darkgrey;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
 .list-group-item{
     border: 0;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.title{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom-color: darkgrey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-radius: 0px;
+    font-size: x-large;
+    text-align: left;
+}
+
+.menu,
+.menu-item{
+    background-color: transparent;
+}
+
+.menu-item::hover{
+    background-color: rgba(51,255,255,0.3);
+    border-left-color: darkgrey;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.image{
+    border-right-color: darkgrey;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.inner-title{
+    border-left-color: darkgrey;
+    border-left-style: solid;
+    border-left-width: 1px;
 }
